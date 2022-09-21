@@ -113,7 +113,7 @@ h5.name:hover,
 h5.name:active {
     text-shadow: 3px 3px 3px greenyellow;
     border: 2px;
-    border-color: red;
+    border-color:blue;
     border-style: solid;
 }
 ul {
