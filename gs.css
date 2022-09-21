@@ -1,88 +1,132 @@
-p.song{
+p.song {
     font-family: 'Times New Roman', Times, serif;
-    color:black;
-font-size: medium;
-font-style:italic;
-}
-p.speech{
-    font-family: 'Times New Roman', Times, serif;
-    color:black;
+    color: black;
     font-size: medium;
-    font-style:italic;}
-p.direction{
-    font-family: 'Times New Roman', Times, serif;
-        background-color: rgb(192, 192, 232);
-        font-size: 20px;       
-    }
-p.direction:hover {
-    font-family: 'Times New Roman', Times, serif;
-        background-color: aqua;
-        color: blueviolet;}
-h5.name{
-    font-family: 'Times New Roman', Times, serif;
-    color:black;
-    font-size: medium;
-    font-style:italic;  
+    font-style: italic;
 }
 
-h5.CHORUS{
- color:black;
- font-size: medium;
- font-style:italic;
-}
-h5.ELSA{
-    color:black;
-font-size: medium;
-font-style:italic;
-}
-h5.BERTHA{
-    color:black;
-font-size: medium;
-font-style:italic;
-}
-h5.OLGA{
-    color:black;
-font-size: medium;
-font-style:italic;
-}
-h5.GRET{
-    color:black;
-font-size: medium;
-font-style:italic;
-}
-h5.LUD{
+p.speech {
+    font-family: 'Times New Roman', Times, serif;
     color: black;
     font-size: medium;
-    font-style:italic;
+    font-style: italic;
 }
-h5.LISA{
+
+p.direction {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(192, 192, 232);
+    font-size: 20px;
+}
+
+p.direction:hover {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+    color: blueviolet;
+}
+
+h5.name {
+    font-family: 'Times New Roman', Times, serif;
     color: black;
     font-size: medium;
-    font-style:italic;  
+    font-style: italic;
 }
-h5.NOT{
+
+h5.CHORUS {
     color: black;
     font-size: medium;
-    font-style:italic; 
+    font-style: italic;
 }
-h5.ALL{
+
+h5.ELSA {
     color: black;
     font-size: medium;
-    font-style:italic; 
+    font-style: italic;
 }
-table,td,th{
+
+h5.BERTHA {
+    color: black;
+    font-size: medium;
+    font-style: italic;
+}
+
+h5.OLGA {
+    color: black;
+    font-size: medium;
+    font-style: italic;
+}
+
+h5.GRET {
+    color: black;
+    font-size: medium;
+    font-style: italic;
+}
+
+h5.LUD {
+    color: black;
+    font-size: medium;
+    font-style: italic;
+}
+
+h5.LISA {
+    color: black;
+    font-size: medium;
+    font-style: italic;
+}
+
+h5.NOT {
+    color: black;
+    font-size: medium;
+    font-style: italic;
+}
+
+h5.ALL {
+    color: black;
+    font-size: medium;
+    font-style: italic;
+}
+
+table,
+td,
+th {
     border: solid 1px;
     color: blueviolet;
     text-align: center;
     padding: 1em;
     margin: 1px;
 }
-tr:nth-child(odd){
+
+tr:nth-child(odd) {
     background-color: rgb(115, 236, 183);
-    }
-    .LISA:hover, .NOT:hover, .CHORUS:hover, .GRET:hover {
-       
-        text-shadow: 2px 2px 8px #FF0000;  
-        border-style: solid;
-        
-    }
+}
+
+.LISA:hover,
+.NOT:hover,
+.CHORUS:hover,
+.GRET:hover {
+
+    text-shadow: 2px 2px 8px #FF0000;
+    border-style: solid;
+
+}
+
+h5.name:hover,
+h5.name:active {
+    text-shadow: 3px 3px 3px greenyellow;
+    border: 2px;
+    border-color: red;
+    border-style: solid;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
