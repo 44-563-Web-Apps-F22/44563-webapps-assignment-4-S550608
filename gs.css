@@ -31,58 +31,147 @@ h5.name {
     font-style: italic;
 }
 
-h5.CHORUS {
-    color: black;
+.CHORUS {
+    color: red;
     font-size: medium;
     font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: yellow;
 }
 
-h5.ELSA {
-    color: black;
-    font-size: medium;
-    font-style: italic;
+.CHORUS:hover{
+    background-color: #FF0000;
+    color: aliceblue;
+    text-shadow: 2.5px 2.5px 2.5px greenyellow;
+    border-style: solid;
+    border: 2px;
 }
 
-h5.BERTHA {
-    color: black;
+.ELSA {
+    color: green;
     font-size: medium;
     font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: yellow;
 }
 
-h5.OLGA {
-    color: black;
-    font-size: medium;
-    font-style: italic;
+.ELSA:hover{
+    background-color: #FF0000;
+    color: aliceblue;
+    text-shadow: 2.5px 2.5px 2.5px greenyellow;
+    border-style: solid;
+    border: 2px;
 }
 
-h5.GRET {
-    color: black;
+.BERTHA {
+    color: red;
     font-size: medium;
     font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgreen;
 }
 
-h5.LUD {
-    color: black;
-    font-size: medium;
-    font-style: italic;
+.BERTHA:hover{
+    background-color: #FF0000;
+    color: aliceblue;
+    text-shadow: 2.5px 2.5px 2.5px greenyellow;
+    border-style: solid;
+    border: 2px;
 }
 
-h5.LISA {
-    color: black;
+.OLGA {
+    color: orange;
     font-size: medium;
     font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
 }
 
-h5.NOT {
-    color: black;
-    font-size: medium;
-    font-style: italic;
+.OLGA:hover{
+    background-color: #FF0000;
+    color: aliceblue;
+    text-shadow: 2.5px 2.5px 2.5px greenyellow;
+    border-style: solid;
+    border: 2px;
 }
 
-h5.ALL {
-    color: black;
+.GRET {
+    color: blue;
     font-size: medium;
     font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: pink;
+}
+
+.GRET:hover{
+    background-color: #FF0000;
+    color: aliceblue;
+    text-shadow: 2.5px 2.5px 2.5px greenyellow;
+    border-style: solid;
+    border: 2px;
+}
+
+.LUD {
+    color: magenta;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: powderblue;
+}
+
+.LUD:hover{
+    background-color: #FF0000;
+    color: aliceblue;
+    text-shadow: 2.5px 2.5px 2.5px greenyellow;
+    border-style: solid;
+    border: 2px;
+}
+
+.LISA {
+    color: brown;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightpink;
+}
+
+.LISA:hover{
+    background-color: #FF0000;
+    color: aliceblue;
+    text-shadow: 2.5px 2.5px 2.5px greenyellow;
+    border-style: solid;
+    border: 2px;
+}
+
+.NOT {
+    color: purple;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: cornsilk;
+}
+
+.NOT:hover{
+    background-color: #FF0000;
+    color: aliceblue;
+    text-shadow: 2.5px 2.5px 2.5px greenyellow;
+    border-style: solid;
+    border: 2px;
+}
+
+.ALL {
+    color: mediumspringgreen;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: peachpuff;
+}
+.ALL:hover{
+    background-color: #FF0000;
+    color: aliceblue;
+    text-shadow: 2.5px 2.5px 2.5px greenyellow;
+    border-style: solid;
+    border: 2px;
 }
 
 table,
@@ -97,16 +186,6 @@ th {
 
 tr:nth-child(odd) {
     background-color: rgb(115, 236, 183);
-}
-
-.LISA:hover,
-.NOT:hover,
-.CHORUS:hover,
-.GRET:hover {
-
-    text-shadow: 2px 2px 8px #FF0000;
-    border-style: solid;
-
 }
 
 h5.name:hover,
