@@ -1,13 +1,13 @@
 p.song{
     font-family: 'Times New Roman', Times, serif;
     color:black;
-font-size: large;
+font-size: medium;
 font-style:italic;
 }
 p.speech{
     font-family: 'Times New Roman', Times, serif;
     color:black;
-    font-size: large;
+    font-size: medium;
     font-style:italic;}
 p.direction{
     font-family: 'Times New Roman', Times, serif;
@@ -70,3 +70,19 @@ h5.ALL{
     font-size: medium;
     font-style:italic; 
 }
+table,td,th{
+    border: solid 1px;
+    color: blueviolet;
+    text-align: center;
+    padding: 1em;
+    margin: 1px;
+}
+tr:nth-child(odd){
+    background-color: rgb(115, 236, 183);
+    }
+    .LISA:hover, .NOT:hover, .CHORUS:hover, .GRET:hover {
+       
+        text-shadow: 2px 2px 8px #FF0000;  
+        border-style: solid;
+        
+    }
