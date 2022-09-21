@@ -12,15 +12,13 @@ p.speech{
 p.direction{
     font-family: 'Times New Roman', Times, serif;
         background-color: rgb(192, 192, 232);
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif;
-        
+        font-size: 20px;       
     }
 p.direction:hover {
     font-family: 'Times New Roman', Times, serif;
         background-color: aqua;
         color: blueviolet;}
-p.name{
+h5.name{
     font-family: 'Times New Roman', Times, serif;
     color:black;
     font-size: medium;
