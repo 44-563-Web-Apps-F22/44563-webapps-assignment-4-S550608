@@ -1,0 +1,74 @@
+p.song{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+font-size: large;
+font-style:italic;
+}
+p.speech{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-size: large;
+    font-style:italic;}
+p.direction{
+    font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(192, 192, 232);
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+p.direction:hover {
+    font-family: 'Times New Roman', Times, serif;
+        background-color: aqua;
+        color: blueviolet;}
+p.name{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-size: medium;
+    font-style:italic;  
+}
+
+h5.CHORUS{
+ color:black;
+ font-size: medium;
+ font-style:italic;
+}
+h5.ELSA{
+    color:black;
+font-size: medium;
+font-style:italic;
+}
+h5.BERTHA{
+    color:black;
+font-size: medium;
+font-style:italic;
+}
+h5.OLGA{
+    color:black;
+font-size: medium;
+font-style:italic;
+}
+h5.GRET{
+    color:black;
+font-size: medium;
+font-style:italic;
+}
+h5.LUD{
+    color: black;
+    font-size: medium;
+    font-style:italic;
+}
+h5.LISA{
+    color: black;
+    font-size: medium;
+    font-style:italic;  
+}
+h5.NOT{
+    color: black;
+    font-size: medium;
+    font-style:italic; 
+}
+h5.ALL{
+    color: black;
+    font-size: medium;
+    font-style:italic; 
+}
